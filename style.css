@@ -1,0 +1,44 @@
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #FFF;
+    background-clip: border-box;
+    border:1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+
+.card .card-header{
+    font-size: 25px;
+    font-weight: 500;
+    background-color: SteelBlue;
+}
+
+.card-header:first-child {
+    border-radius: calc(0.25rem - 1px) calc(0.25rem - 1px) 0 0;
+}
+
+.card>.list-group {
+    border-top: inherit;
+    border-bottom: inherit;
+}
+
+.list-group-flush {
+    border-radius: 0;
+}
+.side1{
+padding-left: 1cm;
+}
+.side2{
+padding-left:5cm ;
+}
+
+
